@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Portada</title>
+</head>
+<body class="portada">
+
+    <div id="japon"></div>
+    <div id="horaJapon">
+    </div>
+    
+    <figure>
+        <a href="index.html" class="iconoinicio"><img class="miLogo" src="img/logoweb.svg" alt="logo inicio"></a>
+    </figure>
+    <h1>¡Bienvenido a Taberu, tu Portal de Gastronomía japonesa!</h1>
+    <p>Aprende recetas, historia y cultura de los mejores platos japoneses</p>
+    <nav class="opacidad">
+        <div class="item"><a href="presentacion.html">¿Qué encontrarás aquí?</a></div>
+        <div class="item"><a href="enlaces.html" >Enlaces</a></div>
+    </nav>
+    
+    <div class="cortar">
+        <div class="item opacidad"><a href="categoria.html">¡CONOCE NUESTROS PLATOS!</a> 
+            <a href="categoria.html" class="no-opacidad"><img id="dango" src="img/dango.svg" alt="ver platos"></a> 
+        </div>
+        <div class="containerflex">
+            <figure class="categorias itemflex">
+                <a href="categoria.html#platostipicos"><img class="image" src="img/curryreal2369.jpg"
+                    srcset="img/curryreal2125.jpg 125w, img/curryreal2166.jpg 166w, img/curryreal2221.jpg 221w, 
+                    img/curryreal2295.jpg 295w, img/curryreal2369.jpg 369w"
+                    sizes="(min-width:600px) 40vw, (min-width:768px) 30vw, (min-width:1024px) 20vw, 70vw"
+                    alt="Platos típicos">
+                    </a>
+                <figcaption>Típicos</figcaption>
+            </figure>
+            <figure class="categorias itemflex">
+                <a href="categoria.html#fideos" >
+                    <img  class="image"src="img/udon369.jpg" 
+                    srcset="img/udon125.jpg 125w, img/udon166.jpg 166w, img/udon221.jpg 221w, 
+                            img/udon295.jpg 295w, img/udon369.jpg 369w"
+                            sizes="(min-width:600px) 40vw, (min-width:768px) 30vw, (min-width:1024px) 20vw, 70vw"
+                    alt="Fideos">
+                </a>
+                <figcaption>Fideos</figcaption>
+            </figure>
+            <figure class="categorias itemflex">
+                <a href="categoria.html#yaki" ><img class="image" src="img/monjayaki369.jpg" 
+                    srcset="img/monjayaki125.jpg 125w, img/monjayaki166.jpg 166w, img/monjayaki221.jpg 221w, 
+                            img/monjayaki295.jpg 295w, img/monjayaki369.jpg 369w"
+                            sizes="(min-width:600px) 40vw, (min-width:768px) 30vw, (min-width:1024px) 20vw, 70vw"
+                    alt="Yaki">
+                </a>
+                <figcaption>Yaki</figcaption>
+            </figure>
+            <figure class="categorias itemflex">
+                <a href="categoria.html#dulces" ><img class="image" src="img/dango369.jpg"
+                    srcset="img/dango125.jpg 125w, img/dango166.jpg 166w, img/dango221.jpg 221w, 
+                    img/dango295.jpg 295w, img/dango369.jpg 369w"
+                    sizes="(min-width:600px) 40vw, (min-width:768px) 30vw, (min-width:1024px) 20vw, 70vw"
+                    alt="Dango">
+                    </a>
+                <figcaption>Dulces</figcaption>
+            </figure>
+            </div>
+    </div>
+    <script type="module" src="./index.js"></script>
+    <script nomodule src="./index.js"></script>
+</body>
+</html>
