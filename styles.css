@@ -40,15 +40,15 @@ body{
     align-items: center;
 }
 
-a { color: rgb(190,0,41);
+a { 
+    color: rgb(190,0,41);
+    display: block;
     text-decoration: none;
     transition: 1s ease-out all; 
 }
-a:hover { /*color: rgb(190,0,41);*/
+a:hover {
         opacity: 0.5; 
-        font-size: 0.8rem;
         transform: scale(0.8);
-        animation: agrandar 1s ease-out;
 }
 .item a{
     font-size:1.2rem;
@@ -59,15 +59,12 @@ a:hover { /*color: rgb(190,0,41);*/
 .item a:hover{
     color: #FFF; 
     opacity: 1;
-    font-size: 1rem;
 }
 footer .item a{
     color: #FFF;
-    
 }
 footer .item a:hover{
     color:rgb(190,0,41);
-    font-size: 1rem;
 }
 .opacidad a:hover{
     color:rgb(5, 0, 0);
