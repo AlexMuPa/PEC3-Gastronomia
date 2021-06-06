@@ -30,6 +30,5 @@ window.addEventListener("load", (e) =>{
     addVideo($washoku, "https://www.youtube.com/embed/Xtnwt-Jq93E")
     addVideo($mibu, "https://www.youtube.com/embed/e2WvHxVqif4")
 });
-$mibu.addEventListener("load", addVideo);
 //addVideo($washoku, primerVideo, "https://www.youtube.com/embed/Xtnwt-Jq93E");
 //addVideo($mibu, segundoVideo, "https://www.youtube.com/embed/e2WvHxVqif4");
