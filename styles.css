@@ -194,7 +194,10 @@ button{
     color:#FFF;
 }
 .no-opacidad:hover{opacity: 1;}
-#dango{ width: 2rem;}
+#dango{ 
+    width: 2rem;
+    display: inline;
+}
 #dango:hover{
     animation: rotaDango 1s ease-out infinite;
 }
