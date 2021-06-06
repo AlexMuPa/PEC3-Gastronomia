@@ -44,9 +44,11 @@ a { color: rgb(190,0,41);
     text-decoration: none;
     transition: 1s ease-out all; 
 }
-a:hover { color: rgb(190,0,41);
+a:hover { /*color: rgb(190,0,41);*/
         opacity: 0.5; 
         font-size: 0.8rem;
+        transform: scale(0.8);
+        animation: agrandar 1s ease-out;
 }
 .item a{
     font-size:1.2rem;
@@ -110,12 +112,10 @@ iframe{
 }
 @keyframes agrandar{
     from {
-        width: 100%;
-        height: auto;
+        transform: scale(1);
     }
     to {
-        width: 75%;
-        height: auto;
+        transform: scale(0.75);
     }
 }
 figure, picture img{
