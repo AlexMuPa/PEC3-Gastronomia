@@ -8,19 +8,28 @@ const paraFormulario = (e) => {
 $formulario.addEventListener('submit', paraFormulario);
 
 //Se anyaden los videos
-const addVideo = (elemento, video, enlace) =>{
+const addVideo = (e, enlace) =>{
+    const video = document.createElement("iframe");
     video.src = enlace;
     video.loading="lazy";
-    elemento.appendChild(video);
+    e.appendChild(video);
 }
-const $washoku = document.getElementById("video-washoku");
-const $mibu = document.getElementById("video-mibu");
+
+/*
 const primerVideo = document.createElement("iframe");
 const segundoVideo = document.createElement("iframe");
-/*
+
 miVideo.src = "https://www.youtube.com/embed/Xtnwt-Jq93E";
 miVideo.loading = "lazy";
 $washoku.appendChild(miVideo);
 */
-addVideo($washoku, primerVideo, "https://www.youtube.com/embed/Xtnwt-Jq93E");
-addVideo($mibu, segundoVideo, "https://www.youtube.com/embed/e2WvHxVqif4");
+
+window.addEventListener("load", (e) =>{
+    const $washoku = document.getElementById("video-washoku");
+    const $mibu = document.getElementById("video-mibu");
+    addVideo($washoku, "https://www.youtube.com/embed/Xtnwt-Jq93E")
+    addVideo($mibu, "https://www.youtube.com/embed/e2WvHxVqif4")
+});
+$mibu.addEventListener("load", addVideo);
+//addVideo($washoku, primerVideo, "https://www.youtube.com/embed/Xtnwt-Jq93E");
+//addVideo($mibu, segundoVideo, "https://www.youtube.com/embed/e2WvHxVqif4");
