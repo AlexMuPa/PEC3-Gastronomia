@@ -92,9 +92,10 @@ img {
     max-width: 100%;
 }
 
-iframe{
+iframe, #video-facade{
     width: 18rem;
     height: 10rem;
+    max-width: 100%;
     margin:auto;
     display: block;
 }
@@ -307,7 +308,7 @@ footer figure{
         padding: 0 0.5rem;
     }
     
-    iframe{
+    iframe, #video-facade{
         width: 22rem;
         height: 12rem;
     }
@@ -356,7 +357,7 @@ footer figure{
         text-align: left;
     }
     
-    iframe{
+    iframe, #video-facade{
         width: 25rem;
         height: 14rem;
     }
@@ -381,7 +382,7 @@ footer figure{
     footer p{font-size: 1rem;}
     footer figure{max-width: 4%;}
     .portada figure{max-width: 25%;}
-    iframe{
+    iframe, #video-facade{
         width: 30rem;
         height: 17rem;
     }
@@ -406,7 +407,7 @@ footer figure{
     header figure{width: 5%;}
     footer figure{max-width: 3%;}
     .portada figure{max-width: 25%;}
-    iframe{
+    iframe, #video-facade{
         width: 35rem;
         height: 20rem;
     }
