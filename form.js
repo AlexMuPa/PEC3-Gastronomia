@@ -45,8 +45,16 @@ $facade.addEventListener("click", (e) =>{
     addVideo(e.target, $washoku, "https://www.youtube.com/embed/Xtnwt-Jq93E")
 
 })
+$facade.addEventListener("mouseover", (e) =>{
+    const $washoku = document.getElementById("video-washoku");
+    addVideo(e.target, $washoku, "https://www.youtube.com/embed/Xtnwt-Jq93E")
+})
 
 $facade2.addEventListener("click", (e) =>{
+    const $mibu = document.getElementById("video-mibu");
+    addVideo(e.target, $mibu, "https://www.youtube.com/embed/e2WvHxVqif4")
+})
+$facade2.addEventListener("mouseover", (e) =>{
     const $mibu = document.getElementById("video-mibu");
     addVideo(e.target, $mibu, "https://www.youtube.com/embed/e2WvHxVqif4")
 })
