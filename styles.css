@@ -44,7 +44,7 @@ a {
     color: rgb(190,0,41);
     display: block;
     text-decoration: none;
-    transition: 1s ease-out all; 
+    transition: opacity 1s ease-out, transform 1s ease-out;
 }
 a:hover {
         opacity: 0.5; 
