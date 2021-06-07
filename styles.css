@@ -263,7 +263,7 @@ footer figure{
     .cortar{
         clip-path: polygon(0% 0%, 100% 0, 100% 15%, 0% 15%);
         text-align: center;
-        transition: 2s ease-out;
+        transition: clip-path 2s ease-out;
         margin-top: 1.5rem;
     }
     .cortar:hover{
