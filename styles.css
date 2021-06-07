@@ -226,7 +226,7 @@ footer figure{
     width: 5%;
     max-width: 5%;}
 
-
+#otrasimagenes{aspect-ratio: 5/3;}
 /*  Empiezan las media queries */
 @media screen and (min-width: 20em){
     figure{
@@ -254,6 +254,7 @@ footer figure{
         max-width: 360px;
         height: auto;
     }
+    #otrasimagenes{height: 190px;}
 }
 
 @media screen and (min-width: 37.5em){
