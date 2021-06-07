@@ -78,7 +78,7 @@ footer .item a:hover{
 }
 .image{
     display: block;
-    height: 6rem;
+    aspect-ratio: 4/3;
     clip-path: circle(45% at 50% 50%);
 }
 .miLogo{height: 6rem;}
@@ -274,10 +274,6 @@ footer figure{
         width: 30%;
         padding:2rem;
     }
-    
-    .image{
-        height: 5rem;
-    }
     main{
         width: 90vw;
         margin:auto;
@@ -328,9 +324,7 @@ footer figure{
         width: 20%;
         margin:0;
     }
-    .image{
-        height: 6rem;
-    }
+
     .containergrid{
         display:grid;
         grid-template-columns: 1fr 4fr;
@@ -415,5 +409,4 @@ footer figure{
         grid-template-columns: 1fr 5fr;
     }
     form{width: 35%;}
-    .image{height: 7rem;}
 }
