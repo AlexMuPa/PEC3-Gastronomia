@@ -96,7 +96,6 @@ img {
     height: auto;
     width: 100%;
     max-width: 100%;
-    display: inline-block;
 }
 
 iframe, #video-facade{
@@ -345,6 +344,7 @@ footer figure{
     header figure{width: 6%;}
 
     .portada figure{max-width: 35%;}
+    .figureicono{width: auto;}
 
     /*.imgcategoria {height: 13rem;}*/
     .navegacionapoyo{margin-top: 1.3rem;}
