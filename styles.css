@@ -179,6 +179,7 @@ p{
     list-style: none;
     text-align: center;
 }
+.portada figure{width: auto;}
 #japon{margin-top: 3.5rem;}
 #horaJapon p{
     font-size: 1.5rem;
@@ -222,6 +223,7 @@ footer p{
 footer a{
     color:#FFF;
 }
+#twit{width: 99%;}
 footer a:hover{color:rgb(190,0,41);}
 footer figure{
     width: 5%;
