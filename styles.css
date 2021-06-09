@@ -223,7 +223,7 @@ footer p{
 footer a{
     color:#FFF;
 }
-/*#twit{width: 99%;}*/
+#twit{width: 99%;}
 footer a:hover{color:rgb(190,0,41);}
 footer figure{
     width: 5%;
@@ -309,7 +309,7 @@ footer figure{
     footer figure{max-width: 5%;}
 
     .item{
-        display: inline-block;
+        display: block;
         padding: 0 0.5rem;
     }
     
