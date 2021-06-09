@@ -349,7 +349,10 @@ footer figure{
     .portada figure{max-width: 35%;}
     .figureicono{width: auto;}
 
-    .imgcategoria {height: 13rem;}
+    .imgcategoria {
+        height: 13rem;
+        aspect-ratio: 4/3;
+    }
     .navegacionapoyo{margin-top: 1.3rem;}
 
     .navegacionapoyo ul{
