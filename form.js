@@ -8,7 +8,7 @@ const paraFormulario = (e) => {
 $formulario.addEventListener('submit', paraFormulario);
 
 //Se anyaden los videos
-/*
+
 const addVideo = (e, enlace) =>{
     const video = document.createElement("iframe");
     video.src = enlace;
@@ -24,8 +24,8 @@ window.addEventListener("load", (e) =>{
     addVideo($washoku, "https://www.youtube.com/embed/Xtnwt-Jq93E")
     addVideo($mibu, "https://www.youtube.com/embed/e2WvHxVqif4")
 });
-*/
 
+/*
 const addVideo = (e, elemento, enlace) =>{
     //document.removeChild(e);
     const video = document.createElement("iframe");
@@ -58,3 +58,4 @@ $facade2.addEventListener("mouseover", (e) =>{
     const $mibu = document.getElementById("video-mibu");
     addVideo(e.target, $mibu, "https://www.youtube.com/embed/e2WvHxVqif4")
 })
+*/
