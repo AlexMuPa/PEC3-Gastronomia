@@ -48,7 +48,7 @@ body{
 }
 a { 
     color: rgb(190,0,41);
-    display: inline-block;
+    display: block;
     text-decoration: none;
     transition: opacity 1s ease-out, transform 1s ease-out;
     
@@ -309,7 +309,7 @@ footer figure{
     footer figure{max-width: 5%;}
 
     .item{
-        display: block;
+        display: inline-block;
         padding: 0 0.5rem;
     }
     
