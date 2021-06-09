@@ -224,7 +224,7 @@ footer p{
 footer a{
     color:#FFF;
 }
-#twit{width: 99%;}
+
 footer a:hover{color:rgb(190,0,41);}
 footer figure{
     width: 5%;
@@ -349,7 +349,7 @@ footer figure{
     .portada figure{max-width: 35%;}
     .figureicono{width: auto;}
 
-    /*.imgcategoria {height: 13rem;}*/
+    .imgcategoria {height: 13rem;}
     .navegacionapoyo{margin-top: 1.3rem;}
 
     .navegacionapoyo ul{
